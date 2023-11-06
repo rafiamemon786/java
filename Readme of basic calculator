@@ -1,0 +1,46 @@
+1. Import necessary packages:
+   - The program starts by importing two packages, `java.util.*` and `java.util.Scanner`. These packages provide utilities for working with input and output.
+
+2. Define the main class:
+   - The program defines a class named `basicCalculator`.
+
+3. Define the main method:
+   - Inside the `basicCalculator` class, the main method `public static void main(String[] args)` is defined. This is the entry point of the program.
+
+4. Create a Scanner object:
+   - A `Scanner` object named `scn` is created to take user input from the console.
+
+5. Display a welcome message:
+   - The program prints a welcome message to the user: "WELCOME TO ARITHMETIC CALCULATOR".
+
+6. Display supported operators:
+   - The program prints a message to inform the user about the supported operators: "Operators (+, -, *, /)".
+
+7. Ask the user for an expression:
+   - The program prompts the user to enter an expression in the format "operand1 operator operand2," for example, "5 + 5".
+
+8. Read the first operand:
+   - The first number entered by the user is read and stored in the variable `operand1` as a `double`.
+
+9. Read the operator:
+   - The operator entered by the user is read and stored in the variable `operator` as a character.
+
+10. Read the second operand:
+    - The second number entered by the user is read and stored in the variable `operand2` as a `double`.
+
+11. Calculate the result:
+    - A variable named `result` is used to store the result of the arithmetic operation.
+
+12. Perform the arithmetic operation based on the operator:
+    - The program uses a `switch` statement to check the value of the `operator`.
+    - If the operator is '+', it adds `operand1` and `operand2` and displays the result.
+    - If the operator is '-', it subtracts `operand2` from `operand1` and displays the result.
+    - If the operator is '*', it multiplies `operand1` and `operand2` and displays the result.
+    - If the operator is '/', it checks if `operand2` is not zero, then it divides `operand1` by `operand2` and displays the result. If `operand2` is zero, it displays an error message.
+    - If an invalid operator is entered, it displays an error message.
+
+13. Display the result or error:
+    - The program displays the result of the arithmetic operation or an error message if the operator is invalid or division by zero is attempted.
+
+14. Display a "Thank you" message:
+    - Finally, the program prints a "Thank you for using" message to the user.
