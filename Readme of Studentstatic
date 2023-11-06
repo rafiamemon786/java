@@ -1,0 +1,17 @@
+1. The program starts with the declaration of a class named "StudentStatistics."
+
+2. Inside the class, the main method is defined, which serves as the entry point of the program.
+
+3. A string variable named "studentData" is initialized, containing data in the format "Name:Score," representing multiple students and their scores.
+
+4. The "studentData" string is split into individual student records using the "split" method, and the results are stored in an array called "records."
+
+5. Two arrays, "names" and "scores," are created to store the names and scores of each student, with their lengths matching the number of records.
+
+6. Several variables are initialized to keep track of statistics: "totalScore" to store the sum of all scores, "highestScore" and "lowestScore" to find the highest and lowest scores, and "highestScorer" and "lowestScorer" to store the names of the students with the highest and lowest scores, respectively.
+
+7. A for loop iterates through each record in the "records" array, splitting each record into a name and a score, and populating the "names" and "scores" arrays. It also updates the total score and tracks the highest and lowest scores and their corresponding students.
+
+8. After processing all records, the program calculates the total number of students as "numberOfStudents" (length of the "records" array) and calculates the average score as "averageScore."
+
+9. Finally, the program displays the calculated statistics using the "System.out.println" method, including the total number of students, the average score of all students, the highest score and the student who achieved it, and the lowest score and the student who achieved it.
